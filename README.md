@@ -105,16 +105,6 @@ build/app/outputs/flutter-apk/app-release.apk
 
 Install that exact APK on an Android device or emulator and repeat the authentication tests before submitting. The current release configuration uses the debug signing key; consult the [Flutter Android release guide](https://docs.flutter.dev/deployment/android) for production signing.
 
-## Submission checklist
-
-- GitHub repository URL with current source, meaningful development commits, and this README.
-- Working Android APK as a separate attachment.
-- One PDF or Word document with all reflection prompts, assigned AI comparison, tool/date disclosure, official source citations, test results, and captioned screenshots.
-
-Include screenshots of successful registration/profile email, sign-in and invalid-input or failed-sign-in feedback, password-update feedback and new-password sign-in, and the signed-out screen. Record old-password rejection, session restoration, loading/error behavior, and protected-access checks. Each screenshot should identify its action, expected result, observed result, and pass/fail outcome. Never reveal passwords.
-
-Begin the document with your name, activity number, test date, platform/device, and repository URL. Submit through the LMS and verify its confirmation. The guide lists November 5, 2026 at 3:30 PM EST as the deadline.
-
 ## References
 
 - [Firebase Flutter setup](https://firebase.google.com/docs/flutter/setup)
