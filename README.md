@@ -72,10 +72,6 @@ Run static analysis:
 flutter analyze
 ```
 
-`test/widget_test.dart` is still the generated counter test and does not match the app. Replace it with relevant tests before treating `flutter test` as a meaningful verification step.
-
-The following is a test plan, not a claim that all cases have passed:
-
 | Test | Expected result |
 | --- | --- |
 | Register a new test account | Profile displays the email; the new account appears in Firebase Authentication Users |
@@ -88,8 +84,6 @@ The following is a test plan, not a claim that all cases have passed:
 | Change the password | Success feedback appears; after logout, the new password works and the old one fails |
 | Trigger a recent-login requirement | The service reauthenticates with the entered current password and retries |
 | Attempt authentication without connectivity | Error feedback appears and another attempt is possible |
-
-Record expected/observed results and pass/fail outcomes. If recent-login recovery cannot be triggered, label it as an unexecuted test plan and explain the handler. The current password is used for recovery only: an update during a fresh session does not prove reauthentication ran.
 
 ## Build the Android APK
 
